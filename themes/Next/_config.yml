@@ -251,8 +251,8 @@ post_meta:
 # 然后：npm install hexo-wordcount --save
 post_wordcount:
   item_text: true
-  wordcount: false
-  min2read: false
+  wordcount: true
+  min2read: true
   separated_meta: true
 
 # Wechat Subscriber
@@ -494,11 +494,11 @@ busuanzi_count:
   enable: true
   # custom uv span for the whole site
   site_uv: true
-  site_uv_header: <i class="fa fa-user"></i>
-  site_uv_footer:
+  site_uv_header: <i class="fa fa-user"> You are</i>
+  site_uv_footer: Visitor of this site, welcome~ 
   # custom pv span for the whole site
   site_pv: true
-  site_pv_header: <i class="fa fa-eye"></i>
+  site_pv_header: <i class="fa fa-eye"> Page View</i>
   site_pv_footer:
   # custom pv span for one page only
   # 页面浏览量，不建议开启，建议用上面的leancloud_visitors
@@ -506,7 +506,7 @@ busuanzi_count:
   # 最后，可以利用leancloud的api建立TopX页面
   page_pv: false
   page_pv_header: <i class="fa fa-file-o"></i>
-  page_pv_footer:
+  page_pv_footer: 
 
 
 # Tencent analytics ID

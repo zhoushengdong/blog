@@ -8,7 +8,7 @@
   <span class="author" itemprop="copyrightHolder">{{ config.author }}</span>
 </div>
 
-{% if theme.copyright %}
+<!--{% if theme.copyright %}
 <div class="powered-by">
   {{ __('footer.powered', '<a class="theme-link" href="https://hexo.io">Hexo</a>') }}
 </div>
@@ -19,4 +19,10 @@
     NexT.{{ theme.scheme }}
   </a>
 </div>
-{% endif %}
+{% endif %}-->
+
+<div class="theme-info">
+  <div class="powered-by"></div>
+  <i class="fa fa-file-word-o" aria-hidden="true"></i>
+  <span class="post-count">博客全站共 {{ totalcount(site) }}字</span>
+</div>

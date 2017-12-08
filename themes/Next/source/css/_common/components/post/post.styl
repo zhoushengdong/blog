@@ -48,3 +48,15 @@
 @import "post-wordcount" if !hexo-config('post_wordcount.separated_meta');
 @import "post-widgets" if (hexo-config('facebook_sdk.enable') and hexo-config('facebook_sdk.like_button')) or (hexo-config('vkontakte_api.enable') and hexo-config('vkontakte_api.like')) or hexo-config('rating.enable');
 @import "post-rtl";
+
+// 文章内链接文本样式
+.post-body p a{
+  color: #0593d3;
+  border-bottom: none;
+  border-bottom: 1px solid #0593d3;
+  &:hover {
+    color: #fc6423;
+    border-bottom: none;
+    border-bottom: 1px solid #fc6423;
+  }
+}
