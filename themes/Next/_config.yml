@@ -8,7 +8,7 @@
 # 这样可以避免更新NexT主题的时候遇到麻烦
 # 最后记得要稍微改下文件名，与下面的保持一致
 # Put your favicon.ico into `hexo-site/source/` directory.
-favicon: /favicon.ico
+favicon: images/favicon.ico
 
 # Set default keywords (Use a comma to separate)
 # 站点关键字，利于SEO大概，记得用英文逗号分隔
@@ -62,7 +62,7 @@ menu:
   home: /
   categories: /categories/
   archives: /archives/
-  tags: /tags
+  tags: /tags/
   about: /about/
   #sitemap: /sitemap.xml
   #commonweal: /404/
@@ -142,6 +142,7 @@ links_title: Links
 links:
   😆Blog: http://myzhoushengdong.com
   😆Hexo: https://hexo.io/zh-cn/docs/deployment.html
+  😆RuanYiFeng: http://www.ruanyifeng.com/home.html
 
 # Sidebar Avatar
 # in theme directory(source/images): /images/avatar.jpg
@@ -399,7 +400,7 @@ changyan:
 
 # Support for LiveRe comments system.
 # You can get your uid from https://livere.com/insight/myCode (General web site)
-#livere_uid: your uid
+livere_uid: MTAyMC8zMjI5NC84ODU1
 
 # Baidu Share
 # Available value:
@@ -548,8 +549,9 @@ algolia_search:
 
 # Local search
 # Dependencies: https://github.com/flashlab/hexo-generator-search
+# 站内搜索
 local_search:
-  enable: false
+  enable: true
   # if auto, trigger search by changing input
   # if manual, trigger search by pressing enter key or search button
   trigger: auto
@@ -731,3 +733,7 @@ images: images
 
 # Theme version
 version: 5.1.2
+
+# 文章末尾添加“本文结束”标记
+passage_end_tag:
+  enabled: true

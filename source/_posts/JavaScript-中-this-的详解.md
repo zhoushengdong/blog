@@ -1,14 +1,17 @@
 ---
 title: JavaScript 中 this 的详解
 date: 2017-12-10 21:12:06
-tags:
+tags: JavaScript
+categories: JavaScript
 ---
 
 ## this 的指向
+
 - this 是 JS 中定义的关键字，它自动定义于每一个函数域内，但是它的指向却让人很迷惑。
 - 在实际应用中，this 的指向大致可以分为以下四种情况。
 
 ### 1.作为普通函数调用
+<!-- more -->
 - 当函数作为一个普通函数被调用，this 指向全局对象。在浏览器里，全局对象就是 window。
 
 ```
@@ -20,7 +23,7 @@ getName(); // denton
 ```
 
 - 可以看出，此时 this 指向了全局对象 window。 在ECMAScript5的严格模式下，这种情况 this 已经被规定不会指向全局对象了，而是 undefined。
-<!-- more -->
+
 ```
 'use strict';
 function fun(){
@@ -113,4 +116,4 @@ obj1.getName();             // denton
 obj1.getName.call(obj2);    // DDD
 obj1.getName.apply(obj2);   // DDD
 ```
-这两个方法在js中都是非常常用的方法，可以阅读下一篇：javascript 中 apply 、call 的详解。
+这两个方法在js中都是非常常用的方法，可以阅读下一篇：[JavaScript 中 apply 、call 的详解](/2017/12/10/JavaScript-中-apply-、call-的详解/)。

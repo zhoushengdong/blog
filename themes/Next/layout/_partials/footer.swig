@@ -21,8 +21,9 @@
 </div>
 {% endif %}-->
 
-<div class="theme-info">
+<!-- <div class="theme-info">
   <div class="powered-by"></div>
   <i class="fa fa-file-word-o" aria-hidden="true"></i>
   <span class="post-count">博客全站共 {{ totalcount(site) }}字</span>
 </div>
+-->

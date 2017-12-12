@@ -1,5 +1,6 @@
 {% if not (theme.duoshuo and theme.duoshuo.shortname) and not theme.duoshuo_shortname and not (theme.disqus.enable and theme.disqus.shortname) and not theme.hypercomments_id %}
 
+  <!-- 来必力City版安装代码 -->
   {% if page.comments and theme.livere_uid %}
     <script type="text/javascript">
       (function(d, s) {
@@ -11,6 +12,7 @@
         e.parentNode.insertBefore(j, e);
       })(document, 'script');
     </script>
+    <noscript>为正常使用来必力评论功能请激活JavaScript</noscript>
   {% endif %}
-
+  <!-- City版安装代码已完成 -->
 {% endif %}
