@@ -85,6 +85,6 @@ search:
 deploy:
   type: git
   branch: master
-  repo: https://gitee.com/zhoushengdong/blog.git
-  # repo: https://github.com/zhoushengdong/zhoushengdong.github.io.git
+  # repo: https://gitee.com/zhoushengdong/blog.git
+  repo: https://github.com/zhoushengdong/zhoushengdong.github.io.git
 
