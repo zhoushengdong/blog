@@ -1,12 +1,12 @@
 ---
 title: 浏览器原生JS-Base64编码解码
-date: 2018-8-8 18:02:35
+date: 2016-8-8 18:02:35
 tags: JavaScript
 categories: JavaScript
-top: 4
+top: 3
 ---
 
-# 原生atob和btoa方法
+## 原生atob和btoa方法
 
 实际上，从IE10+浏览器开始，所有浏览器就原生提供了Base64编码解码方法，不仅可以用于浏览器环境，Service Worker环境也可以使用。
 

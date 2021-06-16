@@ -1,9 +1,9 @@
 ---
 title: JS获取服务器端时间
-date: 2017-12-10 20:08:06
+date: 2015-12-10 20:08:06
 tags: JavaScript
 categories: JavaScript
-top: 2
+top: 3
 ---
 
 ##### 用JS做时间校正，获取本机时间，是存在bug的。 使用JS也可获取到服务器时间，原理是使用 Ajax请求，返回的头部信息就含有服务器端的时间信息，获取到就可以了。以下：

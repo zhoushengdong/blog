@@ -1,6 +1,6 @@
 ## Index Description file
 ## 基于 Hexo 构建一个博客
-[在线地址](https://zhoushengdong.github.io/)
+[在线地址](https://zhoushengdong.gitee.io/)
 
 [官方文档](https://hexo.io/zh-cn/docs/)
 

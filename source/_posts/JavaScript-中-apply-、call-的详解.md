@@ -1,6 +1,6 @@
 ---
 title: JavaScript 中 apply 、call 的详解
-date: 2017-12-10 21:45:39
+date: 2015-12-10 21:45:39
 tags: JavaScript
 categories: JavaScript
 ---

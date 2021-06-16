@@ -11,11 +11,12 @@ comments: false
 # About Me
 
 <blockquote class="blockquote-center">
-    - 94年老腊肉
+    - 94年登录地球OL
     - 狮子座 + 美食爱好者
     - 美食 - 旅游 - 音乐 - 动漫
     - 天生宅 & 吃鸡玩家 & 游戏爱好者
-    - 广东乐源数字技术有限公司（在职）
+    - 广东乐源数字技术有限公司（已离职）
+    - 威创集团股份有限公司（在职）
 </blockquote>
 
 - - - 

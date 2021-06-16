@@ -1,6 +1,6 @@
 ---
 title: 理解 ES6 的 async/await
-date: 2018-7-31 10:20:42
+date: 2017-7-31 10:20:42
 tags: JavaScript
 categories: JavaScript
 top: 3

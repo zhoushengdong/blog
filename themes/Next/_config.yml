@@ -12,7 +12,7 @@ favicon: images/favicon.ico
 
 # Set default keywords (Use a comma to separate)
 # 站点关键字，利于SEO大概，记得用英文逗号分隔
-keywords: "Hexo, NexT"
+keywords: "ZhouShengDong, 周生东, zhoushengdong, Hexo, NexT"
 
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
@@ -20,7 +20,7 @@ keywords: "Hexo, NexT"
 rss:
 
 # 设置站点建立时间
-since: 2016
+since: 2014
 
 # icon between year and author @Footer
 authoricon: heart
@@ -39,6 +39,7 @@ copyright: true
 canonical: true
 
 # Change headers hierarchy on site-subtitle (will be main site description) and on all post/pages titles for better SEO-optimization.
+# 更改站点字幕（将是主要站点描述）和所有帖子/页面标题上的标题层次结构，以实现更好的SEO优化
 seo: false
 
 # If true, will add site-subtitle to index page, added in main hexo config.
@@ -109,12 +110,14 @@ scheme: Gemini
 social:
   GitHub: https://github.com/zhoushengdong
   知乎: https://www.zhihu.com/people/dante0729
+  E-Mail: mailto:www.124780540@qq.com
+  微信: /blog/images/ecode.jpg
 
 # Social Links Icons
 # Icon Mapping:
-#   Map a menu item to a specific FontAwesome icon name.
-#   Key is the name of the item and value is the name of FontAwesome icon. Key is case-senstive.
-#   When an globe mask icon presenting up means that the item has no mapping icon.
+# Map a menu item to a specific FontAwesome icon name.
+# Key is the name of the item and value is the name of FontAwesome icon. Key is case-senstive.
+# When an globe mask icon presenting up means that the item has no mapping icon.
 # 侧栏社交链接图标设置
 social_icons:
   enable: true
@@ -133,6 +136,8 @@ social_icons:
   Instagram: instagram
   StackOverflow: stack-overflow
   Weibo: weibo
+  微信: weixin
+  知乎: send
 
 # Blog rolls
 # 侧栏友链设置
@@ -140,9 +145,8 @@ links_title: Links
 #links_layout: block
 #links_layout: inline
 links:
-  😆Blog: http://myzhoushengdong.com
-  😆Hexo: https://hexo.io/zh-cn/docs/deployment.html
-  😆RuanYiFeng: http://www.ruanyifeng.com/home.html
+  Blog: http://zhoushengdong.com
+  RuanYiFeng: http://www.ruanyifeng.com/home.html
 
 # Sidebar Avatar
 # in theme directory(source/images): /images/avatar.jpg
@@ -205,7 +209,7 @@ sidebar:
   # Scroll percent label in b2t button
   # 在回到顶部按钮里显示阅读百分比
   scrollpercent: true
-  
+
   # Enable sidebar on narrow view
   # 移动端显示侧栏，只对 Muse 和 Mist 设计版式有效！
   onmobile: false
@@ -347,7 +351,7 @@ font:
   # 代码字体，应用于 code 以及代码块
   codes:
     external: true
-    family: 
+    family:
     size:
 
 
@@ -496,7 +500,7 @@ busuanzi_count:
   # custom uv span for the whole site
   site_uv: true
   site_uv_header: <i class="fa fa-user"> You are</i>
-  site_uv_footer: Visitor of this site, welcome~ 
+  site_uv_footer: Visitor of this site, welcome~
   # custom pv span for the whole site
   site_pv: true
   site_pv_header: <i class="fa fa-eye"> Page View</i>
@@ -507,7 +511,7 @@ busuanzi_count:
   # 最后，可以利用leancloud的api建立TopX页面
   page_pv: false
   page_pv_header: <i class="fa fa-file-o"></i>
-  page_pv_footer: 
+  page_pv_footer:
 
 
 # Tencent analytics ID

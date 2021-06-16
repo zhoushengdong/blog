@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Denton Zhou
+title: 周生东的个人博客
 subtitle: DailyThoughts & BetterMe
-description: 但凡未得到 但凡是过去 总是最登对
+# description: 但凡未得到 但凡是过去 总是最登对
 author: Zhou Sheng Dong
 language: zh-Hans
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
-root: /
+url: https://ipvb.gitee.io/blog
+root: /blog
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 
@@ -81,8 +81,10 @@ search:
   limit: 10000
 
 # Deployment
-## Docs: https://hexo.io/docs/deployment.html
+# Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
   branch: master
-  repo: https://github.com/zhoushengdong/zhoushengdong.github.io.git
+  repo: https://gitee.com/zhoushengdong/blog.git
+  # repo: https://github.com/zhoushengdong/zhoushengdong.github.io.git
+
